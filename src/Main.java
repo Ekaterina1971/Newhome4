@@ -28,5 +28,12 @@ public class Main {
         for (int f = 1; f <= 512; f = f * 2) {
             System.out.println(f);
         }
+        // задача №8
+        int vklad = 29000;
+        int summa = 0;
+        for (int h = 1; h <= 12; h ++) {
+            summa = summa + vklad;
+            System.out.println(" Месяц " + h + ", сумма накоплений равна " + summa );
+        }
     }
 }
