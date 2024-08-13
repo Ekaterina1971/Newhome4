@@ -24,5 +24,9 @@ public class Main {
         for (int i = 7; i <= 98; i = i+7) {
             System.out.println(i);
         }
+        // задача №7
+        for (int f = 1; f <= 512; f = f * 2) {
+            System.out.println(f);
+        }
     }
 }
