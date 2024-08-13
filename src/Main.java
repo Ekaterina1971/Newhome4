@@ -35,5 +35,19 @@ public class Main {
             summa = summa + vklad;
             System.out.println(" Месяц " + h + ", сумма накоплений равна " + summa );
         }
+        // задача №9
+        int vklad1 = 29000;
+        int summa1 = 0;
+        for (int g = 1; g <= 12; g++) {
+            summa1 = summa1 + (summa1 /  100);
+            summa1 = summa1 + vklad1;
+            System.out.println("Месяц " + g + ", сумма накоплений равна " + summa1 + " рублей");
+        }
+        // задача №10
+        int m = 2;
+        for (int n = 1; n <= 10; n ++) {
+            int s = m * n;
+            System.out.println(s);
+        }
     }
 }
