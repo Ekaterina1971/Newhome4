@@ -8,5 +8,9 @@ public class Main {
         for (int b = 10; b > 0; b --) {
             System.out.println(b);
         }
+        // задача №3
+        for (int c = 0; c < 17; c = c + 2) {
+            System.out.println(c);
+        }
     }
 }
