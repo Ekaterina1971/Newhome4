@@ -20,5 +20,9 @@ public class Main {
         for (int year = 1904; year <= 2096; year = year +4) {
             System.out.println(year + " год является високосным");
         }
+        // задача №6
+        for (int i = 7; i <= 98; i = i+7) {
+            System.out.println(i);
+        }
     }
 }
