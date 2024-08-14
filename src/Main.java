@@ -47,7 +47,7 @@ public class Main {
         int m = 2;
         for (int n = 1; n <= 10; n ++) {
             int s = m * n;
-            System.out.println(s);
+            System.out.println(" 2 * 1 =" + s);
         }
     }
 }
