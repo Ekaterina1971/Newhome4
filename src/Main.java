@@ -39,8 +39,8 @@ public class Main {
         int vklad1 = 29000;
         int summa1 = 0;
         for (int g = 1; g <= 12; g++) {
-            summa1 = summa1 + (summa1 /  100);
             summa1 = summa1 + vklad1;
+            summa1 = summa1 + summa1 / 100;
             System.out.println("Месяц " + g + ", сумма накоплений равна " + summa1 + " рублей");
         }
         // задача №10
